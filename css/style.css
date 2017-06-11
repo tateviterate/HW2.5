@@ -1,0 +1,186 @@
+*{
+	margin: 0;
+	padding: 0;
+	line-height: 20px;
+}
+body{
+	background: #DCDBDB;
+}
+.container{
+	width: 1075px;
+	min-height: 900px;
+	margin: 0 auto;
+	background: #adadad;
+}
+header{
+	height: 120px;
+	width: 100%;
+	background: #059FAD;
+}
+.homePage{
+	color: #B3D9DB;
+}
+nav{
+	padding-top: 72px;
+	text-align: center;
+}
+.menu{
+	list-style-type: none;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	text-decoration: none;
+	background: #EDF7E9;
+	padding: 10px 20px;
+
+}
+.menu li a:hover:not(.active){
+	background: #202222;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+#active{
+	background: #202222;
+	color: #fff;
+}
+h2{
+	text-align: center;
+	padding: 10px 0;
+	border-bottom: 1px solid #8C8D8B;
+}
+.personInfo{
+	float: left;
+	width: 505px;
+	height: 220px;
+	padding: 10px;
+	border: 2px solid #719e11;
+	margin: 10px 10px 0 0;
+}
+h3{
+	text-align: center;
+	margin: 20px 0;
+}
+.personInfo label{
+	display: inline-block;
+	width: 80px;
+	border: 1px solid yellow;
+	text-align: center;
+}
+.personInfo input{
+	width: 200px;
+	clear: left;
+}
+.addressInfo{
+	width: 505px;
+	height: 220px;
+	padding: 10px;
+	border: 2px solid #719e11;
+	margin: 10px 0;
+}
+.addressInfo label:not(:first-child){
+	display: inline-block;
+	width: 100px;
+	border: 1px solid yellow;
+	text-align: center;
+}
+.addressInfo select{
+	border: 1px solid red;
+	margin-left: 10px;
+}
+.generalInfo{
+	width: 520px;
+	height: 150px;
+	margin: 0 auto;
+	border: 2px solid #719e11;
+	text-align: center;
+	padding: 10px 0 30px;
+	margin-bottom: 10px;
+}
+.generalInfo label{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid yellow;
+	margin: 10px;
+	padding: 0 10px;
+}
+.generalInfo input{
+	text-align: left;
+}
+.comment-block{
+	width: 520px;
+	border: 2px solid #719e11;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.comment-block input{
+	width: 200px;
+} 
+footer div{
+	padding:  20px;
+	text-align: center;
+}
+footer div button{
+	padding: 5px 40px;
+	border: 0;
+	outline: none;
+}
+footer div button:hover{
+	background: #202222;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+/*//////////////////////////////////////*/
+section{
+	width: 60%;
+	margin:0 auto;
+	padding-bottom: 10px;
+}
+.first_table{
+	border: 1px solid #000;
+	border-collapse: separate ;
+}
+table{
+	width: 100%;
+	margin: 20px 0;
+	border-collapse: collapse;
+}
+td, th{
+	border: 1px solid #000;
+}
+.last_table{
+	margin:10px 0;
+}
+.last_table ul,
+.last_table ol {
+	padding: 20px 0 20px 40px;
+}
+
+/*////////////////HW4///////////////////////*/
+.content{
+	border: 2px solid red;
+	width: 70%;
+	margin:20px auto;
+	padding: 30px;
+}
+.content-block{
+	float: left;
+	border: 1px solid #719e11;
+	padding: 10px;
+	margin: 0 40px 20px 0;
+}
+.img-block{
+	border:1px solid red;
+}
+
+
+.personInfo, 
+.addressInfo, 
+.content{
+	content: "";
+	display: table;
+}

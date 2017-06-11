@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registration</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+		<h1 class="homePage">Home page</h1>
+			<nav>
+			<ul class="menu">
+			<li><a href="index.html">Homework 1</a></li>
+			<li><a href="hw2.html">Homework 2</a></li>
+			<li><a href="hw3.html">Homework 3</a></li>
+			<li><a href="hw4.html">Homework 4</a></li>
+			<li><a href="#" id="active">Registration</a></li>
+		</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>Registration Form</h2>
+		<div class="personInfo">
+			<h3>Personal Information</h3>
+			<form action="">
+				<label for="firstName">First Name</label>
+				<input type="text" name="firstName" placeholder="Name"><br>
+				<label for="lastName">Last Name</label>
+				<input type="text" name="lastName" placeholder="Last Name"><br>
+				<label for="userName">User Name</label>
+				<input type="text" name="userName" placeholder="User Name"><br>
+				<label for="password">Password</label>
+				<input type="password" name="password"  placeholder="password">
+			</form>
+		</div>
+
+		<div class="addressInfo">
+			<h3>Address Information</h3>
+			<form action="">
+				<label for="country">Country</label>
+				<select name="country" id="country">
+					<option value="1">Armenia</option>
+					<option value="2">USA</option>
+				</select><br>
+				<label for="state">State</label>
+				<input type="text" name="state"><br>
+				<label for="city">City</label>
+				<input type="text" name="city"><br>
+				<label for="street">Street and apt.</label>
+				<input type="text" name="street">
+			</form>
+		</div>
+		<hr>
+		<h3>General Information</h3>
+		<div class="generalInfo">
+			<form action="">
+				<label for="gender">Gender</label><br>
+				<input type="radio" name="gender" value="Male">Male<br>
+				<input type="radio" name="gender" value="Female">
+				Female<br>
+
+				<label for="transport">Transport</label><br>
+				<input type="checkbox" name="transport"> I have a bike<br>
+				<input type="checkbox" name="transport"> I have a car
+			</form>
+		</div>
+		<hr>
+		<h3>Comment</h3>
+		<div class="comment-block">
+			<form action="">
+				<label for="">Comment title</label>
+				<input type="text"><br>
+				<label for="">Signature</label>
+				<input type="text"><br>
+				Comment<br>
+				<textarea name="comment" id="" cols="40" rows="10"></textarea>
+			</form>
+		</div>
+		<hr>
+	</main>
+	<footer>
+		<div>
+			<form action="">
+				<button value="Save data">Save data</button>
+				<button value="Reset">Reset</button>
+			</form>
+		</div>
+	</footer>
+	</div>
+
+	
+</body>
+</html>
